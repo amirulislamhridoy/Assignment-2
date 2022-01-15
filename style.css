@@ -224,7 +224,7 @@ footer p{
 }
 
 /*----------Tablet----------*/
-@media (max-width: 992px){
+@media only screen and (min-width: 689px) and (max-width: 992px){
     nav li{
         margin-left: 15px;
     }
