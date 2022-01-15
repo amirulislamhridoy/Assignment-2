@@ -77,6 +77,20 @@ main{
     left: 45%;
 }
 
+/* logo */
+.logo-section{
+    margin: 100px 165px;
+}
+hr{
+    border: 1px solid rgba(128, 128, 128, 0.301);
+}
+.logos{
+    margin: 36px 162px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* collection */
 .container{
     margin: 0 21.5%;
