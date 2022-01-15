@@ -223,6 +223,52 @@ footer p{
     margin: 7.5px;
 }
 
+/*----------Tablet----------*/
+@media (max-width: 992px){
+    nav li{
+        margin-left: 15px;
+    }
+    .main-right{
+        background-size: cover;
+    }
+    .main-right img{
+        width: 90%;
+        left: 20%;
+    }
+
+hr{
+    margin: 50px 0;
+}
+
+    /* logo */
+    .logo-section{
+        text-align: center;
+        margin: 0;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin: 0  5px;
+    }
+    /* collection */
+    .container{
+        margin: 0 15%;
+    }
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* feature */
+    .feature-photo{
+        width: 40%;
+    }
+    .feature-photo img{
+        width: 100%;
+    }
+}
+
+/*---------Mobile----------*/
 @media screen and (max-width: 688px){
     /* header */
     header nav{
@@ -274,13 +320,15 @@ footer p{
         margin: 0  5px;
     }
     
-    /* Feature */
+    /* collection */
     .container{
         margin: 0 27%;
     }
     .collections{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* feature */
     .feature{
         flex-direction: column-reverse;
         margin-top: 0;
