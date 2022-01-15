@@ -76,7 +76,10 @@ main{
     position: relative;
     left: 45%;
 }
-
+main:hover img{
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
 /* logo */
 .logo-section{
     margin: 100px 165px;
