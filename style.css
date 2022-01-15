@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+:root{
+    --button-color: rgba(235, 117, 21, 0.774);
+}
+
+/* common */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px;
+}
+header h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 34px;
+}
+nav li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* main */
+main{
+    margin: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main-left{
+    width: 50%;
+}
+#page-title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.main-left p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-left a{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--button-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.main-right{
+    width: 50%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main-right img{
+    position: relative;
+    left: 45%;
+}
