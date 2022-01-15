@@ -7,6 +7,7 @@
 /* common */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /* header */
@@ -16,7 +17,7 @@ header{
     align-items: center;
     margin: 0 120px;
 }
-header h3{
+.short-title{
     font-size: 28px;
     font-weight: 700;
 }
@@ -128,4 +129,37 @@ main{
     display: block;
     text-align: right;
     margin-top: 50px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    color: #fff;
+    background-color: #0A0826;
+    padding: 50px 0;
+}
+footer h3{
+    margin: 0;
+}
+footer p{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 3px 0;
+    color: #D9DBE1;
+}
+.social-media{
+    margin-top: 17px;
+}
+.social-media span{
+    background-color: rgba(170, 170, 170, 0.151);
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 7.5px;
+}
+.social-media a{
+    color: #fff;
+    text-decoration: none;
+}
+.fab{
+    margin: 7.5px;
 }
