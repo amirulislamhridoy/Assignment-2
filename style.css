@@ -275,6 +275,9 @@ footer p{
     }
     
     /* Feature */
+    .container{
+        margin: 0 27%;
+    }
     .collections{
         grid-template-columns: repeat(1, 1fr);
     }
